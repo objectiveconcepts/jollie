@@ -1,0 +1,405 @@
+body {
+  background-color: #E4FFE4;
+}
+
+@media only screen and (max-width: 800px) {
+  .desktopElement {
+    display: none;
+  }
+  .mobileElement {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .desktopElement {
+    display: inline;
+  }
+  .mobileElement {
+    display: none;
+  }
+}
+
+#navigation {
+  top: 0em;
+  height: 3.2em;
+  width: 100%;
+  text-align: center;
+  padding-top: .4em;
+  border-bottom: .2em solid #002b5c;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 100;
+  position: fixed;
+}
+
+.icon {
+  height: 1.25em;
+  vertical-align: middle;
+  padding-right: .3em;
+  margin-bottom: .1em;
+}
+
+#navigation .link {
+  padding-left: .2em;
+  padding-right: .3em;
+  text-decoration: none;
+  color: #002b5c;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1.25em;
+  font-variant: small-caps;
+}
+
+#navigation .spacer {
+  min-width: 9em;
+  display: inline-block;
+}
+
+#openingBackground {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/intro.jpg');
+  z-index: 10;
+  position: fixed;
+}
+
+#header {
+  z-index: 100;
+  position: fixed;
+}
+
+#header div {
+  position: absolute;
+}
+
+#header .headerDate {
+  width: 10em;
+  top: 1.7em;
+  left: 3em;
+}
+
+#openingHeader {
+  position: fixed;
+  z-index: 50;
+  top: 25%;
+  left: 7%;">
+}
+
+#openingHeader img {
+  width: 20em;
+  margin-top: 4em;
+}
+
+#ourStoryHeader {
+  z-index: 90;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+#ourStoryHeader .headerBackground {
+  background-color: #FFFFFF;
+  z-index: 99;
+  height: 100%;
+}
+
+#ourStoryHeader .headerImage {
+  width: 100%;
+  background-image: url('../img/curtain.png');
+  background-repeat: repeat-x;
+  background-position: bottom;
+  height: 1em;
+}
+
+#ourStoryHeader .headerTitle {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display: inline-block;
+}
+
+#stage {
+  height: 100%;
+  width: 100%;
+  background-color: #E4FFE4;
+  z-index: 50;
+  position: fixed;
+}
+
+.ourStoryText {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  font-size: 1.2em;
+  z-index: 50;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#shamrocks {
+  width:100%;
+  z-index: 90;
+  text-align: center;
+  top: 24em;
+  position: fixed;
+  z-index: 91;
+}
+
+#shamrocks img {
+  height: 3em;
+}
+
+.ourStoryEmojiWrapper {
+  width: 100%;
+  position: fixed;
+  z-index: 90;
+}
+
+.ourStoryEmojiWrapper div:first-of-type {
+  position: absolute;
+  right: 50%;
+
+}
+
+.contentDivider hr {
+  background-color: #002b5c;
+  width: 50%;
+  height: 1px;
+}
+
+.contentDivider .col-xs-5:first-of-type hr {
+  float: right;
+}
+
+.contentDivider img {
+  max-height: 2em;
+}
+
+.contentDivider .col-xs-5:last-of-type hr {
+  float: left;
+}
+
+#ourDayHeader {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+
+#ourDayHeader .headerImage:first-of-type {
+  width: 100%;
+  background-repeat: repeat-x;
+  background-image: url('../img/clouds.png');
+  background-position: 20 top;
+  height: 2em;
+}
+
+#ourDayHeader .headerImage:last-of-type {
+  width: 100%;
+  background-repeat: repeat-x;
+  background-image: url('../img/clouds.png');
+  background-position: bottom;
+  height: 2.5em;
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: " FlipV ";
+}
+
+#ourDayHeader .headerBackground {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 8em;
+}
+
+#ourDayHeader .headerTitle {
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display: inline-block;
+  margin-top: 2em;
+}
+
+#ourDayBackground {
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: 50% 0px;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/ourDay.jpg');
+  position: fixed;
+}
+
+#ourDayContent {
+  padding-top: 7em;
+}
+
+#ourDayContent .container {
+  background-color: #E4FFE4;
+  padding-top: 7em;
+  padding-bottom: 2em;
+}
+
+#ourDayContent iframe {
+  min-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+#accommodationsHeader {
+  z-index: 99;
+  width: 100%;
+}
+
+#accommodationsHeader .headerImage {
+  width: 100%;
+  background-repeat: repeat-x;
+  background-image: url('../img/skyline.png');
+  background-position: top;
+  height: 7em;
+}
+
+#accommodationsHeader .headerBackground {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 4.2em;
+}
+
+#accommodationsHeader .headerTitle {
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display: inline-block;
+  margin-top: -.7em;
+}
+
+#accommodationsBackground {
+  background-repeat: no-repeat;
+  background-position: 50% 0px;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/accommodations.jpg');
+  position: fixed;
+  top: 0%;
+  visibility: hidden;
+}
+
+#accommodationsContent {
+  padding-top: 9em;
+}
+
+#accommodationsContent .container {
+  background-color: #E4FFE4;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+#giftsHeader {
+  z-index: 99;
+  width: 100%;
+}
+
+#giftsHeader .headerBackground {
+  height: 5em;
+  width: 100%;
+}
+
+#giftsHeader .headerImage {
+  width: 100%;
+  background-repeat: repeat-x;
+  background-image: url('../img/ribbon.png');
+  background-position: top;
+  height: 15em;
+  top: 0;
+  position: absolute;
+}
+
+#giftsHeader .headerTitle {
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display: inline-block;
+  margin-top: 3.5em;
+}
+
+#giftsBackground {
+  background-repeat: no-repeat;
+  background-position: 50% 0px;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/gifts.jpg');
+  position: fixed;
+  top: 0%;
+  z-index: -3;
+}
+
+#giftsContent {
+  padding-top: 7em;
+}
+
+#giftsContent .container {
+  background-color: #E4FFE4;
+  padding-top: 5em;
+  padding-bottom: 2em;
+}
+
+#footerBackground {
+  background-repeat: no-repeat;
+  background-position: 50% 0px;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/footer.jpg');
+  position: fixed;
+  top: 0%;
+  z-index: -1;
+}
+
+#footer {
+  bottom: .9em;
+  height: 3.5em;
+  width: 100%;
+  text-align: center;
+  padding-top: .4em;
+  border-top: .1em solid #002b5c;
+  border-bottom: .1em solid #002b5c;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 100;
+  position: fixed;
+  display: inline;
+  text-decoration: none;
+  color: #002b5c;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1.1em;
+  font-variant: small-caps;
+}
+
+#footer div {
+  position: fixed;
+  width: 100%;
+  margin: auto;
+}
+
+#footer .contactUs {
+  float: right;
+  padding-right: 1em;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #002b5c;
+}
+
+#progress {
+  position: fixed;
+  bottom: 0;
+  height: 1em;
+  z-index: 999;
+}
