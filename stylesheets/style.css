@@ -130,13 +130,16 @@ body {
 }
 
 .ourStoryText {
-  text-align: center;
   width: 100%;
   position: fixed;
   font-size: 1.2em;
   z-index: 50;
-  padding-left: 10%;
-  padding-right: 10%;
+}
+
+.ourStoryText div {
+  width: 375px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #shamrocks {
