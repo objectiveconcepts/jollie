@@ -3,11 +3,6 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-  html, body {
-    width: auto !important;
-    overflow-x: hidden !important;
-  }
-
   .desktopElement {
     display: none;
   }
