@@ -136,18 +136,12 @@ body {
   position: fixed;
   font-size: 1.2em;
   z-index: 50;
-  -webkit-transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
 }
 
 .ourStoryText div {
   width: 375px;
   text-align: center;
   margin: 0 auto;
-  -webkit-transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
 }
 
 #shamrocks {
@@ -167,15 +161,6 @@ body {
   width: 100%;
   position: fixed;
   z-index: -1;
-  -webkit-transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
-}
-
-.ourStoryEmojiWrapper div {
-  -webkit-transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
 }
 
 .ourStoryEmojiWrapper div:first-of-type {
