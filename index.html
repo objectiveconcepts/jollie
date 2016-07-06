@@ -812,6 +812,9 @@
 
 		var s = skrollr.init({
 			edgeStrategy: 'set',
+			mobileCheck: function(data) {
+				return false;
+			},
 			render: function(data) {
 				//document.querySelector('.scrollpos').innerHTML = data.curTop;
 			}
