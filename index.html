@@ -491,8 +491,8 @@
 		<div>Life is something that is meant to be experienced; the good, the bad, the triumphs and the hardships. Forever by each other’s side, we look forward to life’s next adventure.</div>
 	</div>
 
-	<div style="height: 31500px; display: inline-block;">
-	</div>
+	<p style="height: 31500px;">
+	</p>
 
 	<!-- Photos -->
 	<div id="photoCarousel" class="carousel slide" data-ride="carousel" style="background-color: #E4FFE4; min-height: 10em;">
@@ -806,6 +806,10 @@
 	<script type="text/javascript" src="js/skrollr.menu.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript">
+		$('.screen').each(function() {
+			$(this).height($(window).height());
+		});
+
 		var s = skrollr.init({
 			edgeStrategy: 'set',
 			render: function(data) {
