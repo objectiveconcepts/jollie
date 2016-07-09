@@ -94,8 +94,7 @@ body {
 }
 
 #openingHeader img {
-  width: 20em;
-  margin-top: 4em;
+  transform: translateY(5em);
 }
 
 #ourStoryHeader {
